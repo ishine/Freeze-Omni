@@ -2,7 +2,7 @@
 
 
 <p align="center">
-    <img src="./assets/logo.png" width="100%" height="100%">
+    <img src="./assets/logo.png" width="70%" height="70%">
 </p>
 
 <font size=7><div align='center' > [[🍎 Project Page](https://freeze-omni.github.io/)] [[📖 arXiv Paper](https://arxiv.org/abs/2411.00774)]</div></font>
