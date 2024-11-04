@@ -2,17 +2,13 @@
 
 
 <p align="center">
-    <img src="./asset/logo.png" width="100%" height="100%">
+    <img src="./assets/logo.png" width="100%" height="100%">
 </p>
 
 <font size=7><div align='center' > [[🍎 Project Page](https://freeze-omni.github.io/)] [[📖 arXiv Paper](https://arxiv.org/abs/2411.00774)]</div></font>
 
 
 ---
-
-<p align="center">
-    <img src="./asset/logo.png" width="85%" height="85%">
-</p>
 
 ## 🔥 News
 * **`2024.11.4`** 🌟 We are very proud to launch Freeze-Omni, a speech-to-speech dialogue model
@@ -29,7 +25,7 @@ Freeze-Omni is a speech-to-speech dialogue model, exhibiting the characteristic 
 - **Chunk-level State Prediction**. Freeze-Omni adds a classification layer after the last layer of the backbone LLM to predict different states. These states will determine whether or not the LLM interrupts the user to achieve a duplex dialogue for the user and the bot.
 
 <p align="center">
-    <img src="./asset/overview.png" width="88%" height="88%">
+    <img src="./assets/overview.png" width="88%" height="88%">
 </p>
 
 Besides we implement a Model as a Server strategy. We first started several models simultaneously and regarded them as a server. Then, when a user's VAD was triggered, the speech would be sent to the server in the form of chunks, and the server would be responsible for scheduling which idle model should respond to the current chunk. Since we separated all the kv-cache and CNN cache of the speech encoder and LLM during the inference process, the server only needs to save the inference cache for each user. In this way, any model in the server could respond to any chunk of any user, and there was no need to specify which model was used as a monitor or a generator.
@@ -40,26 +36,26 @@ Besides we implement a Model as a Server strategy. We first started several mode
 - **Evaluation of speech understanding through ASR tasks, using CER(%) and WER(%).**.
 
 <p align="center">
-    <img src="./asset/language_eval2.png" width="68%" height="50%">
+    <img src="./assets/language_eval2.png" width="68%" height="50%">
 </p>
 
 
 - **Evaluation of output speech quality on different top-k of AR decoder by using CER(%).**
 
 <p align="center">
-    <img src="./asset/audio_eval.jpg" width="96%" height="96%">
+    <img src="./assets/audio_eval.jpg" width="96%" height="96%">
 </p>
 
 - **Evaluation of spoken question answering on accuracy(%).**
 
 <p align="center">
-    <img src="./asset/visual_eval.jpg" width="100%" height="100%">
+    <img src="./assets/visual_eval.jpg" width="100%" height="100%">
 </p>
 
 - **Analysis of end-to-end latency for different parts.**
 
 <p align="center">
-    <img src="./asset/visual_eval.jpg" width="100%" height="100%">
+    <img src="./assets/visual_eval.jpg" width="100%" height="100%">
 </p>
 
 
