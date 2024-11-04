@@ -36,26 +36,26 @@ Besides we implement a Model as a Server strategy. We first started several mode
 - **Evaluation of speech understanding through ASR tasks, using CER(%) and WER(%).**.
 
 <p align="center">
-    <img src="./assets/language_eval2.png" width="68%" height="50%">
+    <img src="./assets/asr_res.png" width="70%" height="70%">
 </p>
 
 
 - **Evaluation of output speech quality on different top-k of AR decoder by using CER(%).**
 
 <p align="center">
-    <img src="./assets/audio_eval.jpg" width="96%" height="96%">
+    <img src="./assets/out_cer.png" width="50%" height="50%">
 </p>
 
 - **Evaluation of spoken question answering on accuracy(%).**
 
 <p align="center">
-    <img src="./assets/visual_eval.jpg" width="100%" height="100%">
+    <img src="./assets/qa.png" width="70%" height="70%">
 </p>
 
 - **Analysis of end-to-end latency for different parts.**
 
 <p align="center">
-    <img src="./assets/visual_eval.jpg" width="100%" height="100%">
+    <img src="./assets/latency.png" width="70%" height="70%">
 </p>
 
 
