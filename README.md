@@ -16,7 +16,7 @@ with both low-latency and high intelligence! We have submitted the open-source c
 
 
 ## 👀 Freeze-Omni Overview
-Freeze-Omni is a speech-to-speech dialogue model, exhibiting the characteristic of being "**smart**" as it is constructed upon a "**frozen**" text-modality LLM. This enables it to keep the original intelligence of the LLM backbone, without being affected by the forgetting problem induced by the fine-tuning process for integration of the speech modality. Specifically, Freeze-Omni contains a speech encoder that supports streaming speech input and a speech decoder that generates streaming output speech. **Three key strategies** are adopted to implement the speech-to-speech dialogue system::
+Freeze-Omni is a speech-to-speech dialogue model, exhibiting the characteristic of being "**smart**" as it is constructed upon a "**frozen**" text-modality LLM. This enables it to keep the original intelligence of the LLM backbone, without being affected by the forgetting problem induced by the fine-tuning process for integration of the speech modality. Specifically, Freeze-Omni contains a speech encoder that supports streaming speech input and a speech decoder that generates streaming output speech. **Three key strategies** are adopted to implement the speech-to-speech dialogue system:
 
 - **Chunk-wise Streaming Input**. Freeze-Omni has a speech encoder supporting chunk-wise streaming input speech features to obtain a fast response to input. A 3-stage training strategy can help it keep strong acoustic robustness.
 
