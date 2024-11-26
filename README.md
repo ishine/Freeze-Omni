@@ -89,6 +89,7 @@ pip install -r requirements.txt
 ### Quick Start
 **From python command**
 ```
+export PYTHONPATH=./:$PYTHONPATH
 CUDA_VISIBLE_DEVICES=0 python3 bin/inference.py \
     --model_path ./checkpoints \
     --input_wav ./assets/question.wav \
@@ -113,6 +114,7 @@ To have a good interactive experience, please pay attention to the following thr
 
 **From python command**
 ```
+export PYTHONPATH=./:$PYTHONPATH
 CUDA_VISIBLE_DEVICES=0 python3 bin/server.py \
     --ip your_server_ip \
     --port your_server_port \
