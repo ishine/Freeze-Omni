@@ -6,7 +6,7 @@
     <img src="./assets/logo.png" width="70%" height="70%">
 </p>
 
-<font size=7><div align='center' > [[🍎 Project(Demo) Page](https://freeze-omni.github.io)] [[📖 arXiv Paper](https://arxiv.org/abs/2411.00774)] [[🤗 Hugging Face](https://huggingface.co/VITA-MLLM/Freeze-Omni)]</div></font>
+<font size=7><div align='center' > [[🍎 Project(Demo) Page](https://freeze-omni.github.io)] [[📖 arXiv Paper](https://arxiv.org/abs/2411.00774)] [[🤗 Hugging Face](https://huggingface.co/VITA-MLLM/Freeze-Omni)] [[💬 WeChat (微信)](./asset/wechat_code.jpg)]</div></font></div></font>
 
 
 ---
