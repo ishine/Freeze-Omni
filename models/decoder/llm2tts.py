@@ -132,7 +132,6 @@ class llm2TTS():
         codec_upsample_rate = 600
         left_padding = 0
         right_padding = codec_padding_size
-        prefix = None
         buffer = torch.zeros([1, 1, 0]).to(hidden.device)
         with torch.no_grad():
             with torch.autocast(device_type="cuda", 
