@@ -108,7 +108,7 @@ sh scripts/run_inference.sh
 To have a good interactive experience, please pay attention to the following three points:
 
 - **Ensure a high-speed network connection**.
-- **Use high-performance GPUs for deployment**. In the demo video, we use 1 Nvidia A100 GPU. A800, H800, or H20 will be much better.
+- **Use high-performance GPUs for deployment**.
 - **Maintain a quiet environment**.
 
 **From python command**
