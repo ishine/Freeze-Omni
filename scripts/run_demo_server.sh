@@ -5,7 +5,7 @@ set -x;
 
 ip=127.0.0.1 # Replace with your server's IP address.
 port=8081 # Replace with your server's port.
-llm_exec_nums=1 # Recommended to set to 1, requires about 15GB GPU memory per exec. Try setting a value greater than 1 on a better GPU than A100 to improve concurrency performance.
+llm_exec_nums=1 # Recommended to set to 1, requires about 15GB GPU memory per exec. Try setting a value greater than 1 on a better GPU to improve concurrency performance.
 max_users=3 # Maximum number of users allowed to connect at the same time. Requires about 2GB GPU memory per max_users, adjust according to GPU memory size.
 timeout=180 # Timeout for each user.
 
