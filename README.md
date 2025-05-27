@@ -140,9 +140,9 @@ If you find our work helpful for your research, please consider citing our work.
 ```bibtex
 @article{xiong2024freeze,
   title={Freeze-Omni: A Smart and Low Latency Speech-to-speech Dialogue Model with Frozen LLM},
-  author={Xiong Wang and Yangze Li and Chaoyou Fu and Yunhang Shen and Lei Xie and Ke Li and Xing Sun and Long Ma},
-  journal={arXiv preprint arXiv:2411.00774},
-  year={2024}
+  author={Xiong Wang and Yangze Li and Chaoyou Fu and and Yike Zhang and Yunhang Shen and Lei Xie and Ke Li and Xing Sun and Long Ma},
+  journal={ICML},
+  year={2025}
 }
 ```
 
